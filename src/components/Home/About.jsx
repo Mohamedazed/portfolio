@@ -37,9 +37,9 @@ const About = () => {
                   I enjoy tackling new challenges and continuously expanding my skillset.
                   <br />
                   <br />I am proficient in
-                    <b className="yellow"> Javascript, </b>
+                    <b className="yellow"> Javascript, C# </b>
                     as well as have knowledge in programming languages such as Php, Python
-                  <b className="yellow"> and MySQL.</b>
+                  <b className="yellow"> , MySQL and SQL Server.</b>
                   <br />
                   <br />
                   I have a passion for working
@@ -53,6 +53,15 @@ const About = () => {
                   &nbsp; like
                   <i>
                     <b className="yellow"> React.js</b>
+                  </i>
+                  <br />
+                  <br />
+                  I have experience in building Web Apps using
+                  <i>
+                    <b className="yellow"> Microsoft technologies, </b>
+                    like
+                    <b className="yellow"> .NET, C#.</b> with modern frontend framworks like
+                    <b className="yellow"> Blazor.</b> 
                   </i>
                   <br />
                   <br />

@@ -58,10 +58,10 @@ const Resume = () => {
               iconStyle={{ background: 'black', color: '#fff' }}
               icon={<AiFillStar />}
             >
-              <h3 className="vertical-timeline-element-title">Freelancer Full Stack Web Developer</h3>
+              <h3 className="vertical-timeline-element-title">Full Stack Web Developer</h3>
               <h4 className="vertical-timeline-element-subtitle">Morocoo</h4>
               <p>
-              ReactJS | Laravel | Express Node JS | MySQL | MongoDB | Bootstrap | RESTApi | Git | GitHub | Docker
+              ReactJS | Laravel | Express NodeJS | MySQL | .NET | SQL Server | Blazor | C# | MongoDB | Bootstrap | RESTApi | Git | GitHub | Docker
               </p>
             </VerticalTimelineElement>
             <VerticalTimelineElement

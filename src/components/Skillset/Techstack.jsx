@@ -4,17 +4,18 @@ import {
   DiJavascript1,
   DiReact,
   DiNodejs,
-  DiGit,
+  DiGit,DiDatabase
 } from "react-icons/di";
 import {
   SiPhp,
   SiMysql,
   SiRedux,
   SiMongodb,
-  SiHtml5,
-  SiExpress
+  SiHtml5,SiBlazor,
+  SiExpress,SiMicrosoftsqlserver,
+  SiPostgresql, SiTailwindcss, SiDotnet
 } from "react-icons/si";
-import { FaLaravel, FaBootstrap , FaPython, FaCss3Alt} from "react-icons/fa";
+import { FaLaravel, FaBootstrap ,FaCode, FaPython, FaCss3Alt} from "react-icons/fa";
 
 const Techstack = () => {
   return (
@@ -47,9 +48,6 @@ const Techstack = () => {
         <SiMysql />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiGit />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
         <SiPhp />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
@@ -60,6 +58,24 @@ const Techstack = () => {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
        <FaCss3Alt />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <span>C#</span>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiPostgresql />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiTailwindcss /> 
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiBlazor /> 
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiDotnet /> 
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiMicrosoftsqlserver /> 
       </Col>
     </Row>
   );

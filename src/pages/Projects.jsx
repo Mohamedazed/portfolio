@@ -6,7 +6,7 @@ import pg from "../assets/projects/pg.png";
 import project from "../assets/projects/project.jpeg";
 import lift from "../assets/projects/lift.png";
 import image from "../assets/projects/image.png";
-import krypto from "../assets/projects/krypto.png";
+import proj from "../assets/projects/proj.jpg";
 import kickstart from "../assets/projects/kickstart.png";
 
 const Projects = () => {
@@ -45,33 +45,32 @@ const Projects = () => {
             <ProjectCard
               imgPath={pg}
               isBlog={false}
+              title="Ticketing System"
+              description="This Ticketing application features a RESTful API server built with .NET and C#. The data is retrieved from the API server and displayed on a user-friendly interface designed using Blazor server, Bootstrap and styled-components from Syncfusion. This system will allow users to report problems or incidents encountered while using the main ERP system"
+              ghLink="#"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={pg}
+              isBlog={false}
               title="Store Website"
               description="This ecommerce website features a responsive front-end using Reactjs and designed with Bootstrap5 and CSS3. This store application allow displaying data of products using APIs, with interface of categories and products cards...  "
               ghLink="https://github.com/Mohamedazed/StoreAppReact"
             />
           </Col>
 
-          {/* <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={pg}
-              isBlog={false}
-              title="Blog Website"
-              description="This blogging application features a RESTful API server built with Nodejs and Expressjs. The data is retrieved from the API server and displayed on a user-friendly interface designed using React, Redux, and styled-components for a seamless experience."
-              ghLink="https://github.com/19sajib/mern-blog-app"
-            />
-          </Col>
-
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={krypto}
+              imgPath={proj}
               isBlog={false}
-              title="Project Krypto"
-              description="Project Krypto is a Web 3 project that utilizes an Ethereum smart contract created using Solidity. It allows users to interact with their Metamask wallet and send Ethereum."
-              ghLink="https://github.com/19sajib/Project-Krypto-Web-3.0"
-              demoLink="https://project-krypto.netlify.app/"
+              title="Employees System"
+              description="Employees System is a Web App project that utilizes an CRUD operations to manage employees using .NET and C# and to access data i use Entity Framwork Core in Backend side and blazor, Bootstrap in frontend side with Radzen as component Library. It allows admins to manage with their employees."
+              ghLink="https://github.com/Mohamedazed/BlazorEmployesManagement"
             />
           </Col>
-
+{/* 
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={kickstart}
